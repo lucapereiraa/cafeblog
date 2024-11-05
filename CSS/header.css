@@ -1,0 +1,39 @@
+/* ====================Header=============================== */
+
+header{
+    width: 80%;
+}
+
+header  img{
+    height: 5rem;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    background-color: var(--marrom);
+    padding-left: 5rem;
+}
+
+header h1{
+    width: 100%;
+    text-align: center;
+    font-size: 1.6rem;
+    color: var(--claro);
+}
+
+header nav{
+
+    background-color: var(--terra);
+    height: 5rem;
+    padding-left: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+nav > a{
+    color: var(--marrom_avermelhado);
+    font-size: 1.6rem;
+}

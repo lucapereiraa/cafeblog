@@ -1,3 +1,20 @@
+@import url(./CSS/header.css);
+@import url(./CSS/conteudo.css);
+@import url(./CSS/footer.css);
+
+:root{
+    --escuro: black;
+    --claro: white;
+    --marrom: #987b5d;
+    --marrom_avermelhado: brown;
+    --terra: wheat;
+    --cinza: #ebebeb
+}
+
+
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -22,84 +39,6 @@ body{
     align-items: center     ;
 }
 
-/* ====================Header=============================== */
 
-header{
-    width: 80%;
-}
 
-header  img{
-    height: 5rem;
-}
 
-.title{
-    display: flex;
-    align-items: center;
-    background-color: #987b5d;
-    padding-left: 5rem;
-}
-
-header h1{
-    width: 100%;
-    text-align: center;
-    font-size: 1.6rem;
-    color: white;
-}
-
-header nav{
-
-    background-color: wheat;
-    height: 5rem;
-    padding-left: 6rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4rem;
-}
-
-nav > a{
-    color: brown;
-    font-size: 1.6rem;
-}
-
-/* ====================Main========================================= */
-
-main{
-    width: 80%;
-    background-color:#ebebea
-}
-
-.conteudo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    padding: 1rem;
-    background-color: white;
-    border-radius: 1,5rem;
-    margin: 2rem 12rem;
-}   
-
-.conteudo h2{
-    font-size: 2.4rem;
-    margin-top: 2.5rem;
-}
-
-.conteudo img{
-    border-radius: 1.5rem;
-    width: 110rem;
-    height: 50rem;
-    }
-
-.conteudo p{
-    font-size: 1.6rem;
-    padding: 1.5rem;
-}   
-
-/* ==============footer===================================================== */
-
-.footer{
-    height: 8rem;
-    width: 80%;
-    background-color: black;
-}

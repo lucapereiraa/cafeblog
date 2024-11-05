@@ -57,3 +57,24 @@ nav > a{
         font-size: 1.2rem;
     }
 }
+
+/* =====================tablet 1024px=========================================== */
+
+@media (max-width: 1024px) {
+    header{
+        width: 80%;
+    }
+
+    .title{
+        padding-left: 0;
+    }
+
+    header nav{
+        padding-left: 0;
+    }
+
+    nav > a{
+        font-size: 1.5rem;
+    }
+}
+    

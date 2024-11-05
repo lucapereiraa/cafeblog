@@ -49,3 +49,20 @@ main{
         width: 100%;
     }
 }
+
+/* ================Tablet 1024px======================= */
+
+@media (max-width: 1024px){
+    main{
+        width: 80%;
+    }
+
+    .conteudo{
+        margin: 2rem 2rem;
+    }
+
+    .conteudo img{
+        height: 60%;
+        width: 100%;
+    }
+}

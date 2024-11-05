@@ -54,7 +54,7 @@ main{
 
 @media (max-width: 1024px){
     main{
-        width: 80%;
+        width: 100%;
     }
 
     .conteudo{
@@ -71,11 +71,11 @@ main{
 
 @media (max-width: 1440px){
     main{
-        width: 80%;
+        width: 100%;
     }
 
     .conteudo{
-        margin: 1.5rem 1.5rem;
+        margin: 2.5rem 2.5rem;
     }
 
     .conteudo img{

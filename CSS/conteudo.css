@@ -66,3 +66,20 @@ main{
         width: 100%;
     }
 }
+
+/* ==================Resolução HD 1440px================= */
+
+@media (max-width: 1440px){
+    main{
+        width: 80%;
+    }
+
+    .conteudo{
+        margin: 1.5rem 1.5rem;
+    }
+
+    .conteudo img{
+        height: 50%;
+        width: 100%;
+    }
+}

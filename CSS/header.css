@@ -77,4 +77,24 @@ nav > a{
         font-size: 1.5rem;
     }
 }
+
+/* ======================Resolução HD 1440px======================================== */
+
+@media (max-width: 1440px){
+    header{
+        width: 80%;
+    }
+
+    .title{
+        padding-left: 5rem;
+    }
+
+    header nav{
+        padding-left: 5rem;
+    }
+
+    nav > a{
+        font-size: 2rem;
+    }
+}
     
